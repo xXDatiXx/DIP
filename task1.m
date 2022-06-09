@@ -4,10 +4,9 @@ matriz = rand(5,3);
 matriz(matriz(:,:)>0.52)=1;
 matrizidentidad1 = [1 0 0; 0 1 0; 0 0 1];
 
-
-[M,N]=size(A);
-g=imcrop(A,[1 1 M (N/2)]);
-figure(); imshow(g);
+[ySize, xSize] = size(A);
+A(1:ySize/2, 1:end)=2;
+figure(); imshow(A);
  
 
 R=A(:,:,1);
