@@ -1,4 +1,4 @@
-A = imread('mau.jpg');
+A = imread('img1.jpeg');
 
 matriz = rand(5,3);
 matriz(matriz(:,:)>0.52)=1;
