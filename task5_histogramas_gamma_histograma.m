@@ -1,3 +1,5 @@
+clc; cleanvars; clear all;
+
 img = imread('puppybueno.jpg');
 img2 = imread('mau.jpg');
 img3 = imread('puppy.jfif');
